@@ -380,3 +380,51 @@ p {
     margin-top: 1rem;
     text-align: right;
 }
+
+.footer {
+    padding: 1rem 0;
+    background-color: #2b2a2c;
+}
+
+.footer_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer_info {
+    display: flex;
+    align-items: center;
+}
+
+.footer_copyrigth {
+    font-size: 0.9rem;
+    color: #79797a;
+    border-right: 1px solid #79797a;
+    padding-right: 1rem;
+    margin-right: 1rem;
+}
+
+.footer_social {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_link {
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.footer_nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer_nav_link {
+    font-size: 0.9rem;
+    color: var(--gray);
+    margin-left: 1rem;
+    text-decoration: none;
+}
