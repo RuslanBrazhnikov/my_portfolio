@@ -77,6 +77,7 @@ p {
     color: var(--black);
     opacity: 0.7;
 }
+
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -183,11 +184,11 @@ p {
     margin-top: 3.5rem;
     margin-bottom: 1.5rem;
     text-align: center;
-    
+
     font-size: 2.8rem;
     color: var(--black);
     font-weight: bold;
-    
+
 }
 
 .works {
@@ -206,12 +207,12 @@ p {
     box-shadow: 0 0 4px black;
     border-radius: 10px;
     margin-bottom: 1rem;
-    
-
+    cursor: pointer;
 }
 
 .work:hover {
     box-shadow: 0 0 25px black;
+
 }
 
 .work_content {
@@ -236,3 +237,76 @@ p {
     text-transform: uppercase;
 }
 
+.about_inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 7rem;
+
+}
+
+.about_photo {
+    max-width: 50%;
+    padding-left: 3.5rem;
+}
+
+.about_content {
+    width: 50%;
+    margin-top: 5rem;
+    padding-left: 7.5rem;
+}
+
+.about_title {
+    font-size: 2.8 rem;
+    font-weight: bold;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+.about_bigtitle {
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: var(--gray-light);
+    text-transform: uppercase;
+}
+
+.about_text {
+    margin-top: 2.5rem;
+    margin-bottom: 3.5rem;
+
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: var(--gray);
+}
+
+.reviews {
+    background: #332f30 url("images/reviews.png") center no-repeat;
+    padding: 3rem 0;
+    position: relative;
+
+}
+
+.reviews_inner {
+    width: 100%;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.reviews_text {
+    font-size: 0.9rem;
+    color: white;
+    text-align: center;
+
+}
+
+.reviews_author {
+    width: 100%;
+    margin-top: -51px;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+p {
+    padding-top: 5px;
+}
