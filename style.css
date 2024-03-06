@@ -2,7 +2,7 @@
     --black: #2b2a2c;
     --gray: #6a696b;
     --gray-light: #dedede;
-    --white: #ffffff;    
+    --white: #ffffff;
 }
 
 body {
@@ -12,7 +12,12 @@ body {
     color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
 }
 
@@ -34,4 +39,90 @@ p {
     margin: 0 auto;
 }
 
+.header {
+    padding: 1rem 0;
+    position: relative;
 
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+}
+
+.user_avatar {
+    border-radius: 50%;
+}
+
+.user_content {
+    padding-left: 9px;
+
+}
+
+.user_name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 3px;
+}
+
+.user_prof {
+    font-size: 0.75rem;
+    color: var(--black);
+    opacity: 0.7;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+}
+
+.nav_link {
+    margin-left: 2rem;
+    position: relative;
+    font-size: 0.9rem;
+    color: var(--black);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.nav_link:hover {
+    padding: 0 0 4px;
+    border-bottom: 2px solid black;
+}
+
+.intro_inner {
+    display: flex;
+    padding-top: 6.6rem;
+    padding-bottom: 8rem;
+    position: relative;
+
+    border-bottom: 1px solid black;
+}
+
+.intro_subtitle {
+    color: var(--black);
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.intro_title {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.intro_text {
+    color: var(--black);
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
