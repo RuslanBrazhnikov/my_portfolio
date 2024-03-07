@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        
+    
+
 
     <title>Portfolio</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <body>
     <header class="header">
         <div class="container">
             <div class="header_inner">
                 <div class="user">
-                    <img class="user_avatar" src="/images/avatar_photo.png" alt="logo">
+                    <img class="user_avatar" src="/android-chrome-192x192.png" alt="logo">
                     <div class="user_content">
                         <div class="user_name">Ruslan <br>Brazhnikov</div>
                         <div class="user_prof">Full Stack Developer</div>
@@ -67,7 +71,7 @@
 
                     </div>
 
-                    <button class="btn" type="button">SEE MY RESUME</button>
+                    <button class="btn" type="button" data-modal="#modal_resume">MY RESUME</button>
                 </div>
                 <img class="intro_photo" src="/images/IMG-20230926-WA0120.jpg" alt="photo">
             </div>
@@ -132,7 +136,7 @@
                             tenetur eius voluptatibus laudantium. Impedit placeat officia est. Debitis facere obcaecati
                             mollitia harum similique fugiat dicta deserunt illum pariatur accusamus!</p>
                     </div>
-                    <button class="btn" type="button">SEE MY RESUME</button>
+                    <button class="btn" type="button" data-modal="#modal_resume">SEE MY RESUME</button>
                 </div>
             </div>
         </div>
@@ -263,9 +267,17 @@
                     <a class="footer_nav_link" href="#" data-scroll="#about">About me</a>
                     <a class="footer_nav_link" href="#" data-scroll="#courses">Blog</a>
                     <a class="footer_nav_link" href="mailto:ruslan.1995mai@gmail.com">Contact</a>
+                </div>
             </div>
-        </div>
     </footer>
+
+    <div class="modal show" id="modal_resume">
+        <div class="modal_dialog">
+            <h3 class="modal_title">RESUME</h3>
+            <img class="modal_photo" src="/images/resume.jpg" alt="resume">
+            <a class="btn btn_edit btn_modal" href="/images/resume.jpg" download>Download</a>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 
